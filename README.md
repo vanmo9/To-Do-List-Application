@@ -65,5 +65,5 @@ The To-Do List Web Application is a simple, yet effective tool designed to help 
 * Email (vanmowha@gmail.com)
 
 
-## License ([MIT License]())
+## License ([MIT License](https://github.com/vanmo9/To-Do-List-Application/blob/main/LICENSE))
 This project is licensed under the MIT License - see the LICENSE file for details. (c) Mohamed Hassan.
