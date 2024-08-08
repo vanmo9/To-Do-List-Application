@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <!-- MDB Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+     <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .card-header, .card-footer {
+            background: #2e3047;
+            color: #3bba9c;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do List</h1>
+            <p>Manage your tasks effectively</p>
+        </header>
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h3>To-Do List</h3>
+                        <p>Manage your tasks effectively</p>
+                    </div>
+                    <div class="card-body">
+                        <form id="task-form" class="form-inline justify-content-center mb-3">
+                            <input type="text" id="task-input" class="form-control mr-2" placeholder="New Task" required>
+                            <button type="submit" class="btn btn-primary">Add</button>
+                        </form>
+                        <ul class="list-group" id="task-list">
+                            <!-- Task items will be added here -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h3>Completed Tasks</h3>
+                        <p>List of completed tasks</p>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group" id="completed-task-list">
+                            <!-- Completed tasks will be listed here -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h3>Task Summary</h3>
+                        <p>Overview of your tasks</p>
+                    </div>
+                    <div class="card-body">
+                        <p>Total Tasks: <span id="total-tasks">0</span></p>
+                        <p>Completed Tasks: <span id="completed-tasks">0</span></p>
+                        <p>Pending Tasks: <span id="pending-tasks">0</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>MOHAMED HASSAN MOHAMED ID: 668642 | APT 1040B US | Today's Date: <span id="todays-date"></span></p>
+        </footer>
+    </div>
+
+     <!-- JavaScript -->
+    <script src="scripts.js"></script>
+    <!-- MDB Bootstrap JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+</body>
+</html>

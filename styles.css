@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    background-color: #2e3047;
+    color: #3bba9c;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.card-header, .card-footer {
+    background: #2e3047;
+    color: #3bba9c;
+    border: none;
+}
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #333;
+}
+.form-control::placeholder {
+    color: #ccc;
+}
+.btn {
+    background: #3bba9c;
+    border: none;
+    color: #fff;
+}
+.list-group-item {
+    background: #fff;
+    border: none;
+    color: #333;
+    margin-bottom: 10px;
+}
+.completed {
+    text-decoration: line-through;
+    background: #d4edda;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2e3047;
+    color: #3bba9c;
+    border-radius: 5px;
+    margin-top: 20px;
+}
