@@ -6,10 +6,10 @@ The To-Do List Web Application is a simple, yet effective tool designed to help 
 
 ## Screenshot
 
-![To-Do List Screenshot](screenshot1.png)
-![To-Do List Screenshot](screenshot2.png)
-![To-Do List Screenshot](screenshot3.png)
-![To-Do List Screenshot](screenshot4.png)
+![To-Do List Screenshot](img/Screenshot1.png)
+![To-Do List Screenshot](img/Screenshot2.png)
+![To-Do List Screenshot](img/Screenshot3.png)
+![To-Do List Screenshot](img/Screenshot4.png)
 
 
 
